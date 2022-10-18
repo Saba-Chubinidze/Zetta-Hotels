@@ -1,9 +1,14 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .container{
     width: 1366px;
     height: 1559px;
     margin: 0 auto;
     border: solid black;
     overflow: hidden;
+    
 }
 .section1{
     width: 100%;
@@ -19,6 +24,8 @@
     color: white;
     padding: 20px 30px;
     font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 2;
     
 }
 .opasity{
@@ -27,7 +34,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 .hone{
     font-size: 14px;   
@@ -35,15 +42,17 @@
     color: #FFFFFF;
     display: inline;
     float: left;
-    z-index: 1;
+    
 }
 li{
     display: inline;
-    float: right;
-    margin-left: 30px;
-    margin-right: 50px;
+    margin-left: 50px;
     font-size: 14px;
-
+    position: relative;
+}
+.li1{
+    margin-left: 450px;
+    
 }
 .text{
     margin-top: 215px;
@@ -86,6 +95,7 @@ li{
     padding-top: 19px;
     padding-right: 19px;
     padding-bottom: 19px;
+    
         
 }
 .section2{
@@ -206,4 +216,3 @@ li{
 .marian{
     color: #5863F8;
 }
-
